@@ -8,30 +8,51 @@
 body{
   font-family: raleway;
 }
-.nav_bar{
+header{
   width: 100%;
-  height: 50px;
   background: #000000;
+
 }
+.wraper{
+  width: 1200px;
+  margin: 0 auto;
+}
+.wraper:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+nav{
+  height: 31px;
+  float: right;
+  }
 h1{
   float: left;
-  font-size: 20px;
-  color: white;
+  font-size: 14px;
+  margin-left: 69px;
+  margin-top: 14px;
 }
 h1 a{
   text-decoration: none;
   color:white;
 }
+.green{
+  color:#46AA8F;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #000000;
     float: right;
+    height: 30px;
 }
 li{
   display: inline-block;
+  margin-right: 35px;
+  font-size: 15px;
 }
 
 
@@ -67,4 +88,68 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.slide{
+  width: 1200px;
+  height: 500px;
+  background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+70,d7dee3+84,d7dee3+100,f5f7f9+100,d7dee3+100 */
+  background: #f6f8f9; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 70%, #d7dee3 84%, #d7dee3 100%, #f5f7f9 100%, #d7dee3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 70%,#d7dee3 84%,#d7dee3 100%,#f5f7f9 100%,#d7dee3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 70%,#d7dee3 84%,#d7dee3 100%,#f5f7f9 100%,#d7dee3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#d7dee3',GradientType=0 ); /* IE6-9 */;
+}
+.nav_left{
+  position: absolute;
+  width: 40px;
+  height:40px;
+  font-size: 100px;
+  display: inline-block;
+  left: 170px;
+  top: 200px;
+}
+
+.chair{
+  width: 600px;
+  height: 431px;
+  background-image: url(../images/black_chair.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  float:left;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.text_box_slide{
+  width: 400px;
+  float: left;
+  margin-top: 150px;
+  padding: 50px;
+  text-align: center;
+}
+.title_slide{
+  text-align: center;
+  font-size: 40px;
+}
+.text_slide{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+button{
+  margin-top: 30px;
+  width: 250px;
+  height: 60px;
+  background-color: #46AA8F;
+  font-size: 20px;
+  text-align-last: center;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 15px;
+  color: white;
+}
+.nav_right{
+  position: absolute;
+  right: 170px;
+  top: 200px;
+  font-size: 100px;
 }
