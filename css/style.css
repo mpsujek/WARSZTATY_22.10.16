@@ -214,10 +214,11 @@ a, .button_slide{
   width: 1110px;
   height: 725px;
   background-color: #e0e0e0;
-  padding: 40px;
+  display: inline-block;
+
 }
 .price_container{
-  margin-left: 30px;
+  margin-left: 0px;
   font-size: 20px;
 }
 .price_container::after{
@@ -228,7 +229,7 @@ a, .button_slide{
   background-color: #2BC8AC;
 }
 .box{
-  margin: 40px;
+  margin-top: 60px;
   border-style: solid;
   border-color: grey;
   border-width: 2px;
@@ -238,6 +239,7 @@ a, .button_slide{
   font-family: arial;
   display: inline-block;
   background-color: #EEEEEE;
+  margin-left: 60px;
   float:left;
 }
 .circle{
@@ -260,9 +262,14 @@ a, .button_slide{
   margin-left: 10px;
   margin-top: 10px
 }
+.plan{
+  margin-top: 40px;
+  color: #2BC8AC;
+  font-size: 20px;
+}
 
 .button{
-
+  position: static;
   width: 170px;
   height:30px ;
   background-color: #2BC8AC;
@@ -270,4 +277,32 @@ a, .button_slide{
   text-align: center;
   padding-top: 10px;
   border-radius: 10px;
+  margin: auto;
+}
+.circle_container{
+  height: 150px;
+  width: auto;
+  display: inline-block;
+  align-content: center;
+}
+.circle_price{
+  border-style: solid;
+  border-color: grey;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  display: table-cell;;
+  vertical-align: middle;
+}
+.option{
+  background: white;
+  text-align: center;
+  font-family: arial;
+  color: grey;
+  padding: 20px;
+}
+.option:nth-child(2){
+  background: grey;
+  color: white;
+
 }
