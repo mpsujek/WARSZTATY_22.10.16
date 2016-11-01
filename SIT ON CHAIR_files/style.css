@@ -26,7 +26,6 @@ header{
 }
 nav{
   height: 31px;
-  width: 485px;
   float: right;
   }
 h1{
@@ -53,11 +52,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left:115px
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -66,8 +64,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float:right;
-    font-size: 14px;
 }
 
 
@@ -125,7 +121,7 @@ li a {
   background-color: #2BC8AC;
   border-radius: 10px;
   width: 265px;
-  height: 52px;
+  height: 45px;
   margin-top: 31px;
   margin-left: 18%;
 
@@ -134,7 +130,7 @@ li a {
   text-decoration: none;
   color: white;
   display: block;
-  padding-top: 14px;
+  padding-top: 6px;
   font-size: 23px;
 }
 .nav_right{
@@ -201,12 +197,11 @@ li a {
   padding-top: 15px;
   padding-left: 19px;
   font-size: 12px;
-  color: #ADAEAF;
 }
 .offer_box{
   width: 1200px;
   height: 720px;
-  background-color: #F0F1F2;
+  background-color: #e0e0e0;
 }
 .title_section{
   margin-left: 69px;
@@ -229,13 +224,13 @@ li a {
 .box{
   margin-top: 75px;
   border-style: solid;
-  border-color: #C1C2C3;
+  border-color: grey;
   border-width: 2px;
   width: 330px;
   height: 500px;
   text-align: center;
   display: inline-block;
-  background-color: #F0F1F2;
+  background-color: #EEEEEE;
   margin-left: 44px;
   float:left;
 }
@@ -244,17 +239,17 @@ li a {
   width: 50px;
   height: 50px;
   border-style: solid;
-  border-color: #C1C2C3;
+  border-color: grey;
   border-width: 2px;
   margin: -38px auto;
-  background-color: #FDFEFF;
+  background-color: white;
 
 }
 .dot{
   border-radius: 50%;
   width: 27px;
   height: 27px;
-  background-color: #C1C2C3;
+  background-color: grey;
   margin-left: 12px;
   margin-top: 12px
 }
@@ -268,11 +263,12 @@ li a {
   width: 122px;
   height: 25px ;
   background-color: #2BC8AC;
-  color: #F8F9FA;
+  color: white;
   text-align: center;
   padding-top: 10px;
   border-radius: 10px;
-  margin: 15px 107px;
+  margin: 113px 107px;
+
 }
 .circle_container{
   height: 150px;
@@ -280,37 +276,27 @@ li a {
   display: inline-block;
   align-content: center;
   padding-top: 30px;
-  /*background-color: #FDFEFF;*/
 }
 .circle_price{
   border-style: solid;
-  border-color: #C1C2C3;
+  border-color: grey;
   border-radius: 50%;
   height: 120px;
   width: 120px;
   display: table-cell;;
   vertical-align: middle;
-  font-size: 30px;
-  color:#C1C2C3
-}
-.igorny{
-  vertical-align: super;
-  font-size: 14px;
-}
-.circle_bottom{
-  font-size: 14px;
 }
 .option{
-  background: #E2E3E4;
+  background: white;
   text-align: center;
   font-family: arial;
-  color: #ADAEAF;
+  color: grey;
   padding: 11px;
   font-size: 23px;
 }
-.option:nth-child(2n+2){
-  background: #F8F9FA;
-  color: #ADAEAF;
+.option:nth-child(2){
+  background: grey;
+  color: white;
 }
 .contact_section{
   width: 1200px;
@@ -328,7 +314,7 @@ li a {
   height: 62px;
   border-width: thin;
   font-size: 36px;
-  color: #E2E3E4;
+  color: grey;
   font-weight: lighter;
   margin-top: 33px;
   padding-left: 15px;
@@ -368,7 +354,6 @@ li a {
   margin-top: 36px;
   margin-left: 0px;
   width: 366px;
-  color:#E2E3E4;
 }
 .send_button input{
   border-radius: 10px;
@@ -393,22 +378,20 @@ footer{
   width: 430px;
   height: 50px;
   float: left;
-  color: #ADAEAF;
 }
 .footer_socialmedia{
   float:right;
-  width: 438px;
+  width: 250px;
   height: 20px;
   display: inline-block;
 }
 .fr ,.vimeo,.pint,.twitter{
-  width: 38px;
-  height: 38px;
+  width: 20px;
+  height: 20px;
   background-image: url(../images/flickr.png);
   background-size: contain;
   float: left;
   background-repeat: no-repeat;
-  margin-top: -15px;
 }
 .vimeo{
   background-image: url(../images/vimeo.png);
@@ -424,7 +407,4 @@ footer{
 }
 .logo{
   float: right;
-  margin-right: 90px;
-  font-size: 20px;
-  color:#ADAEAF;
 }
