@@ -523,6 +523,22 @@ footer{
   width: 42px;
   height: 42px;
 }
+.fr:active{
+  width: 40px;
+  height: 40px;
+}
+.vimeo:active{
+  width: 40px;
+  height: 40px;
+}
+.pint:active{
+  width: 40px;
+  height: 40px;
+}
+.twitter:active{
+  width: 40px;
+  height: 40px;
+}
 .logo{
   float: right;
   margin-right: 90px;
