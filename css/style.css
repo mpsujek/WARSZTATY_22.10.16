@@ -69,9 +69,24 @@ li a {
     float:right;
     font-size: 14px;
 }
-
-
+li a:hover{
+  background-color: grey;
 }
+
+li a:active{
+  background-color: #2BC8AC;
+}
+
+li a, .firma_content{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
 .slide{
   width: 1200px;
   height: 504px;
@@ -90,6 +105,10 @@ li a {
   display: inline-block;
   left: 190px;
   top: 252px;
+}
+.nav_left:hover{
+  left: 195px;
+  top: 255px;
 }
 
 .chair{
@@ -128,7 +147,18 @@ li a {
   height: 52px;
   margin-top: 31px;
   margin-left: 18%;
-
+  }
+.button_slide:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.button_slide:active{
+  background-color: #2BC8AC;
+  border-radius: 10px;
+  width: 265px;
+  height: 52px;
+  margin-top: 35px;
+  margin-left: 20%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
   }
 .button_slide a{
   text-decoration: none;
@@ -143,9 +173,24 @@ li a {
   top: 252px;
   font-size: 72px;
 }
+.nav_right:hover{
+  right: 200px;
+  top: 257px;
+}
 .photo_container{
   width: 1200px;
   height: 345px;
+}
+.photo_1:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.photo_2:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.photo_3:hover{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 .photo_1{
   width: 335px;
@@ -197,6 +242,11 @@ li a {
   height: 8px;
   background-color: #2BC8AC;
 }
+.cover:hover{
+  margin-top: 0px;
+  height: 100%;
+  animation-delay: 4s;
+}
 .photo_3_text{
   padding-top: 15px;
   padding-left: 19px;
@@ -239,6 +289,9 @@ li a {
   margin-left: 44px;
   float:left;
 }
+.box:hover{
+  box-shadow: 0px 0px 30px 0px rgba(43, 200, 172, 0.5);
+}
 .circle{
   border-radius: 50%;
   width: 50px;
@@ -274,6 +327,18 @@ li a {
   border-radius: 10px;
   margin: 15px 107px;
 }
+.button:hover{
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+.button:active{
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+  width: 116px;
+  height: 23px;
+}
+.button:visited{
+  background-color: grey;
+}
+
 .circle_container{
   height: 150px;
   width: auto;
@@ -363,6 +428,19 @@ li a {
   margin-left: -19px;
   float: left;
 }
+.checkbox:hover{
+  box-shadow: 0px 0px 30px 0px rgba(43, 200, 172, 0.5);
+}
+.checkbox:active{
+  background-image: url(../images/form_ok.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.checkbox:target{
+  background-image: url(../images/form_ok.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .checkbox_text{
   font-size: 20px;
   margin-top: 36px;
@@ -382,6 +460,13 @@ li a {
   font-weight: bold;
   margin-top: 35px;
   margin-left: -20px;
+}
+.send_button input:hover{
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+.send_button input:active{
+  margin-top:38px;
+  margin-left:-16px;
 }
 footer{
   height: 100px;
@@ -421,6 +506,22 @@ footer{
 .twitter{
   background-image: url(../images/twitter.png);
 
+}
+.fr:hover{
+  width: 42px;
+  height: 42px;
+}
+.vimeo:hover{
+  width: 42px;
+  height: 42px;
+}
+.pint:hover{
+  width: 42px;
+  height: 42px;
+}
+.twitter:hover{
+  width: 42px;
+  height: 42px;
 }
 .logo{
   float: right;
